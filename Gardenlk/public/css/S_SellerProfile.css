@@ -1,0 +1,176 @@
+* {
+    font-family: 'Poppins'/* , sans-serif */
+    ;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    color: #222;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+}
+
+.pbox {
+    height: 70px;
+    width: 400px;
+    display: flex;
+    margin-left: 70px;
+}
+
+
+/* form */
+
+
+/* @extend display-flex; */
+
+display-flex,
+.signup-content,
+.form-row {
+    display: flex;
+    display: -webkit-flex;
+}
+
+.profile-form {
+    width: 1015px;
+}
+
+.register-form {
+    padding: 93px 115px 14px 80px;
+    margin-bottom: 0px;
+}
+
+.form-row {
+    margin: 0 -30px;
+}
+
+.form-row .form-group {
+    width: 100%;
+    padding: 0 30px;
+}
+
+.form-input,
+.form-select {
+    margin-bottom: 23px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #cacaca;
+    padding: 14px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input:focus {
+    border: 1px solid #306C00;
+}
+
+.form-submit {
+    text-align: center;
+}
+
+.submit {
+    margin: 40px 0 20px 0;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+#reset {
+    background: #154614;
+    color: #fff;
+    border: 2px solid #ebebeb;
+}
+
+#reset:hover {
+    border: 2px solid #154614;
+    background: #154614;
+    color: #fff;
+}
+
+#submit {
+    background: #306C00;
+    color: #fff;
+    border: 2px solid #ebebeb;
+    margin-right: 25px;
+}
+
+#submit:hover {
+    border: 2px solid #306C00;
+    background-color: #306C00;
+    color: #fff;
+}
+
+.form-input {
+    position: relative;
+}
+
+input.error {
+    border: 1px solid #c70000;
+}
+
+@media screen and (max-width: 1024px) {
+    .profile-form {
+        width: 100%;
+    }
+    .register-form {
+        padding: 93px 80px 0px 80px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .signup-content {
+        width: 100%;
+    }
+    .register-form {
+        padding: 93px 30px 0px 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .form-row {
+        flex-direction: column;
+        margin: 0px;
+    }
+    .form-row .form-group {
+        width: 100%;
+        padding: 0 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .submit {
+        width: 100%;
+    }
+    #submit {
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+}
+
+.sidepic {
+    position: absolute;
+    left: 0px;
+    bottom: 40px;
+    /* border: 5px solid #555; */
+    height: 50%;
+}
+
+textarea {
+    font-family: 'Poppins'/* , sans-serif */
+    ;
+    border: 2px solid #cacaca;
+}

@@ -1,0 +1,182 @@
+.home-content .overview-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    margin-bottom: 26px;
+}
+
+.overview-boxes .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% / 5 - 15px);
+    background: #fff;
+    padding: 15px 14px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #153037;
+    color: white;
+}
+
+.overview-boxes .box-topic {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.buttonadd {
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonadd:hover {
+    background-color: #153037;
+    color: white;
+}
+
+.home-content .boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*box */
+
+.home-content .boxes .userdetails {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-content .boxes .user-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.boxes .user-details li.topic {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.boxes .user-details li {
+    list-style: none;
+    margin: 8px 0;
+    font-size: 18px;
+    color: #333;
+    font-size: 400;
+    text-decoration: none;
+}
+
+.buttonselection {
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.buttonselection1 {
+    background-color: #4CAF50;
+}
+
+.buttonselection2 {
+    background-color: #ee4325;
+}
+
+.home-content .boxes .newreq {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding: 20px 30px;
+    margin: 0 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.boxes .box .title {
+    font-size: 24px;
+    font-weight: 500;
+    /* margin-bottom: 10px; */
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 15%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 15px 5px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    float: right;
+}
+
+
+/*input[type=submit]:hover {
+background-color: #008CBA;
+color: white;
+}*/
+
+
+/* admin user add user */
+
+.boxes .box .title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+/* admin user add user */

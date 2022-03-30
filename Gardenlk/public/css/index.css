@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+.hero-text1{
+    text-align: center;
+    margin: 80px;
+}
+
+.mySlides {
+    display: none
+}
+
+
+/* img {vertical-align: middle;}
+ */
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Caption text */
+
+.text {
+    font-size: 45px;
+    padding: 8px 150px;
+    position: absolute;
+    bottom: 350px;
+    width: 100%;
+    text-align: right;
+    color: green;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    padding: 1.2rem 4rem;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: absolute;
+    left: 75%;
+    top: 430px;
+}
+
+
+/* product card */
+
+.flex-container .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 20%;
+    margin: 20px;
+    text-align: center;
+    padding: 5px;
+    flex-grow: 1;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    background-color: #306C00;
+    color: white;
+}
+
+.card img:hover {
+    opacity: 0.3;
+}
+
+.flex-container .card:nth-child(8n + 1) {
+    width: calc(90%/4);
+    flex-grow: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: none;
+    justify-content: center;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    line-height: 5px;
+    font-size: 30px;
+}

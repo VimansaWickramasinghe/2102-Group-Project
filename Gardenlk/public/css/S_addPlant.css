@@ -1,0 +1,161 @@
+.container {
+    display: flex;
+    width: auto;
+    margin-top: -100px;
+}
+
+.leftItems {
+    display: block;
+    width: 750px;
+    margin: 10px 10px 0 10px;
+}
+
+.rightText {
+    margin: 10px 0 10px 20px;
+    padding: 0 0 20px 20px;
+    text-align: center;
+    width: auto;
+    display: block;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+}
+
+.input {
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+}
+
+#input1 {
+    display: flex;
+    padding: 10px 0 10px 25px;
+    margin: 0 0 0 20px;
+}
+
+.button {
+    margin: 40px 0 0 220px;
+    background-color: #306C00;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+}
+
+select {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    width: 300px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #54b802;
+}
+
+.box {
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    border: 2px solid #54b802;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #DAF4CB;
+    align-items: center;
+    display: flex;
+    font-size: 015px;
+    margin: 0 0 10px 30px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+input[type="text"] {
+    border: 2px solid #4aa103;
+}
+
+label {
+    color: black;
+    cursor: pointer;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea {
+    border: 2px solid #4aa103;
+    width: 600px;
+    height: 100px;
+    padding: 10px 0 20px 0;
+    margin: 10px 0 20px 0;
+}
+
+.box {
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    border: 5px dashed #c2cdda;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #eee;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    margin: 0 0 10px 30px;
+}
+
+label {
+    background-color: rgb(46, 121, 17);
+    color: white;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin: 20px 60px 50px 10px;
+    width: 100px;
+    height: 50px;
+}
+
+#file-chosen_1 {
+    margin: 100px 0 0 -160px;
+    font-family: sans-serif;
+    width: 100px;
+}
+
+#file-chosen_2 {
+    margin: 100px 0 0 -160px;
+    font-family: sans-serif;
+    width: 100px;
+}
+
+#file-chosen_3 {
+    margin: 100px 0 0 -160px;
+    font-family: sans-serif;
+    width: 100px;
+}
+
+#file-chosen_4 {
+    margin: 100px 0 0 -160px;
+    font-family: sans-serif;
+    width: 100px;
+}
+
+.rightform {
+    position: absolute;
+    top: 190px;
+    left: 750px;
+}
+
+.backbtn {
+    position: absolute;
+    top: 190px;
+    left: 50px;
+}

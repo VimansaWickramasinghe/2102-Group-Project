@@ -1,0 +1,280 @@
+            body {
+                background-image: url("../img/pbg2.png");
+                background-repeat: no-repeat;
+                width: auto;
+                height: 100%;
+                background-size: 1700px 1950px;
+                font-family: "Poppins", sans-serif;
+            }
+            
+            a {
+                text-decoration: none;
+                color: #000000;
+            }
+            
+            .uprow {
+                display: flex;
+                margin: 0 10px 0 0;
+            }
+            
+            .btn {
+                margin: 60px 0 0 0;
+            }
+            
+            .btn-row {
+                height: 35px;
+                width: 300px;
+                text-align: center;
+                border-radius: 0px;
+                border: 1px solid #E5E5E5;
+                margin: 0px 0 0 0;
+                padding: 20px 0 0 10px;
+                cursor: pointer;
+                border-collapse: none;
+            }
+            
+            .btn-row:hover {
+                background-color: #D5E1C9;
+            }
+            
+            .row2 {
+                flex-wrap: wrap;
+                height: 2000px;
+            }
+            /* Main column */
+            
+            .col1 {
+                flex: 25%;
+                padding: 30px;
+                top: 20%;
+                position: absolute;
+                height: auto;
+            }
+            
+            .col2box1 {
+                padding: 20px 0 0 20px;
+                height: 200px;
+                width: 300px;
+                border: 2px solid rgb(18, 109, 22);
+                position: absolute;
+                top: 200px;
+                left: 400px;
+            }
+            
+            .col2box2 {
+                padding: 20px 0 0 20px;
+                border: 2px solid rgb(18, 109, 22);
+                height: 200px;
+                width: 550px;
+                position: absolute;
+                top: 200px;
+                left: 820px;
+            }
+            
+            .col2row1 {
+                padding: 20px 0 0 20px;
+                border: 2px solid rgb(18, 109, 22);
+                height: 220px;
+                width: 970px;
+                position: absolute;
+                top: 480px;
+                left: 400px;
+            }
+            /* Sidebar/right column */
+            
+            .col2 {
+                position: absolute;
+                top: 800px;
+                left: 400px;
+                margin: 0px;
+            }
+            /*vertical line*/
+            
+            .vl {
+                border-left: 3px solid #E5E5E5;
+                height: 750px;
+                position: absolute;
+                left: 25%;
+                margin-left: -3px;
+                top: 20%;
+            }
+            /*Detail lables*/
+            
+            .topnav {
+                overflow: hidden;
+                height: 50px;
+            }
+            
+            .topnav a {
+                float: left;
+                display: block;
+                color: #958F8F;
+                text-align: justify;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                border-bottom: 3px solid transparent;
+            }
+            
+            .topnav a:hover {
+                border-bottom: 3px solid #306C00;
+                color: #306C00;
+            }
+            
+            #active {
+                border-bottom: 3px solid #306C00;
+                color: #306C00;
+            }
+            
+            table,
+            th,
+            td {
+                background-color: rgb(249, 254, 250);
+                border-collapse: collapse;
+                padding: 10px;
+            }
+            
+            .table1 {
+                table-layout: fixed;
+                width: 100%;
+            }
+            
+            .notify {
+                background-color: #ffffff;
+                border: 2px solid #958F8F;
+                width: 90%;
+                padding: 30px;
+                display: flex;
+                align-items: center;
+            }
+            
+            .imgplant {
+                width: 150px;
+                height: 150px;
+            }
+            
+            .orders-table {
+                width: 95%;
+                border: 2px solid rgb(18, 109, 22);
+            }
+            
+            .orders-table-head {
+                height: 10px;
+                color: grey;
+                font-size: 12px;
+            }
+            
+            .btn1 {
+                font-weight: 500;
+                background-color: #D5E1C9;
+                border: none;
+                text-align: center;
+                display: inline-block;
+                font-size: 13px;
+                border-radius: 5px;
+                height: 40px;
+                width: 100px;
+                cursor: pointer;
+                color: #000000;
+            }
+            
+            .editlink {
+                padding-left: 20px;
+            }
+            
+            .orderImage {
+                display: inline-block;
+                margin-left: 150px;
+                margin-top: 50px;
+            }
+            
+            .addressspan1 {
+                position: absolute;
+                top: 55px;
+                left: 450px;
+            }
+            
+            .addressspan2 {
+                position: absolute;
+                top: 85px;
+                left: 450px;
+            }
+            
+            .backgroundupImage {
+                position: absolute;
+                left: 900px;
+                height: 800px;
+                width: 555px;
+            }
+            
+            .modal {
+                display: none;
+                position: fixed;
+                z-index: 1;
+                padding-top: 80px;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: auto;
+                background-color: rgb(0, 0, 0);
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+            /* Modal Content */
+            
+            .modal-content {
+                background-color: #fefefe;
+                margin: 50px 0 0 200px;
+                padding: 20px;
+                border: 1px solid #888;
+                width: 50%;
+            }
+            /* The Close Button */
+            
+            .close {
+                color: #aaaaaa;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+            }
+            
+            .close:hover,
+            .close:focus {
+                color: #000;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            /*Default Address*/
+            
+            .defaultAddressrow {
+                display: flex;
+                flex-wrap: wrap;
+                min-height: 1200px;
+            }
+            
+            .defaultAddresscol2 {
+                height: auto;
+                position: absolute;
+                top: 200px;
+                left: 400px;
+                margin: 0px 0 50px 0;
+                padding: 100px 0 0 0;
+            }
+            
+            .defaultAddresstable1 {
+                margin: 0px;
+                border: 2px solid #958F8F;
+                width: 400px;
+            }
+            
+            .defaultAddressdltButton {
+                text-align: right;
+                background-color: transparent;
+                border: 1px solid #ffffff;
+                cursor: pointer;
+            }
+            
+            .defaultSelection {
+                padding-left: 10px;
+                height: 10px;
+                width: 700px;
+            }

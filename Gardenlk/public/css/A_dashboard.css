@@ -1,0 +1,107 @@
+ .home-content .overview-boxes {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     padding: 0 20px;
+     margin-bottom: 26px;
+ }
+ 
+ .overview-boxes .box {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: calc(100% / 5 - 15px);
+     background: #fff;
+     padding: 15px 14px;
+     border-radius: 12px;
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .overview-boxes .box-topic {
+     font-size: 20px;
+     font-weight: 500;
+ }
+ 
+ .home-content .box .number {
+     display: inline-block;
+     font-size: 35px;
+     margin-top: -6px;
+     font-weight: 500;
+ }
+ 
+ .home-content .sales-boxes {
+     display: flex;
+     justify-content: space-between;
+ }
+ /* left box */
+ 
+ .home-content .sales-boxes .recent-sales {
+     width: 65%;
+     height: auto;
+     background: #fff;
+     padding: 20px 30px;
+     margin: 0 20px;
+     border-radius: 12px;
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .home-content .sales-boxes .sales-details {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ .sales-boxes .box .title {
+     font-size: 24px;
+     font-weight: 500;
+     /* margin-bottom: 10px; */
+ }
+ 
+ .sales-boxes .sales-details li.topic {
+     font-size: 20px;
+     font-weight: 500;
+ }
+ 
+ .sales-boxes .sales-details li {
+     list-style: none;
+     margin: 8px 0;
+ }
+ 
+ .sales-boxes .sales-details li a {
+     font-size: 18px;
+     color: #333;
+     font-size: 400;
+     text-decoration: none;
+ }
+ /* Right box */
+ 
+ .home-content .sales-boxes .top-sales {
+     width: 35%;
+     height: auto;
+     background: #fff;
+     padding: 20px 30px;
+     margin: 0 20px 0 0;
+     border-radius: 12px;
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .sales-boxes .top-sales li {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: 10px 0;
+ }
+ 
+ .sales-boxes .top-sales li a {
+     display: flex;
+     align-items: center;
+     text-decoration: none;
+ }
+ 
+ .sales-boxes .top-sales li .product,
+ .price {
+     font-size: 17px;
+     font-weight: 400;
+     color: #333;
+ }

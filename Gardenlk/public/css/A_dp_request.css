@@ -1,0 +1,58 @@
+    .home-content .boxes {
+        display: flex;
+        justify-content: space-between;
+    }
+    /*box*/
+    
+    .home-content .boxes .newreq {
+        width: 100%;
+        height: auto;
+        background: #fff;
+        padding: 20px 30px;
+        margin: 0 20px;
+        border-radius: 12px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .buttonselection {
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 40px 20px;
+        cursor: pointer;
+        border-radius: 10px;
+        width: 20%;
+    }
+    
+    .buttonselection1 {
+        background-color: #4CAF50;
+    }
+    
+    .buttonselection2 {
+        background-color: #ee4325;
+    }
+    
+    p {
+        margin-bottom: 15px;
+    }
+    
+    img {
+        float: left;
+        margin-top: 0.5%;
+        margin-bottom: 0.5%;
+        margin-right: 3%;
+        height: 260px;
+        width: 300px;
+    }
+    
+    .row {
+        display: flex;
+    }
+    
+    .column {
+        flex: 50%;
+    }

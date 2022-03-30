@@ -1,0 +1,194 @@
+body {
+    font-family: "Poppins";
+}
+
+.container {
+    margin-top: -224px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 10px 0 0 0;
+    grid-gap: 1em;
+}
+
+.rightcol {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+}
+
+.leftcol {
+    padding: 10px 0 0 50px;
+}
+
+.box {
+    background-color: #D5E1C9;
+    border: #bbb 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    margin: 20px 0 0 0;
+    width: 200px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: #306C00;
+    color: #ffffff;
+}
+
+
+/* .ex1 {
+    height: auto;
+    margin: 10px 0 20px 30px;
+    padding: 2px 0 10px 0px;
+    background-color: #ffffff;
+} */
+
+.search {
+    float: right;
+    display: block;
+}
+
+#search {
+    font-family: "Poppins", sans-serif;
+    padding: 10px 10px 40px 0;
+    margin: 0 0 0 20px;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #fff;
+}
+
+.dropdown-content {
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    height: 30px;
+    min-width: 130px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.ul li:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #f1f1f1;
+    margin-top: 10px;
+}
+
+.ul li:hover .dropdown-content ul {
+    display: block;
+    margin: 10px;
+}
+
+.ul li:hover .dropdown-content ul li {
+    width: 100px;
+    padding: 10px;
+    text-align: left;
+}
+
+input[type=text] {
+    width: 150px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin: 10px 0 0 70px;
+    height: 30px;
+}
+
+input[type=text]:focus {
+    width: 60%;
+}
+
+.vertical {
+    margin: 110px 0 20px 0;
+    border-left: 3px solid rgb(223, 222, 222);
+    height: 600px;
+    position: absolute;
+    left: 20%;
+}
+
+.plantsTopic {
+    color: rgb(58, 57, 57);
+    font-size: 45px;
+    position: absolute;
+    top: 190px;
+    left: 1100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    margin-top: 190px;
+    padding: 0 0 0 40px;
+}
+
+h4 {
+    color: #306C00;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+
+/* 
+.plant-img {
+    width: 300px;
+    height: 300px;
+    margin: 30px 10px 30px 10px;
+} */
+
+.plants {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 0px 0px 0px;
+    grid-gap: 1em;
+}
+
+#active {
+    color: #ffffff;
+    background-color: #306C00;
+    font-style: italic;
+}
+
+.option-tag {
+    font-family: "Poppins", sans-serif;
+}
+
+.flex-container .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* width: 20%; */
+    margin: 15px;
+    text-align: center;
+    padding: 5px;
+    background-color: #f1f1f1;
+    /* flex-grow: 1; */
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    background-color: #306C00;
+    color: white;
+}
+
+.card img:hover {
+    opacity: 0.3;
+}

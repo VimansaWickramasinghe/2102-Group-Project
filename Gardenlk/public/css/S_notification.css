@@ -1,0 +1,214 @@
+    body {
+        font-family: "Poppins", sans-serif;
+    }
+    
+    .uprow {
+        display: flex;
+        margin: 0 0 0 0;
+    }
+    
+    .container {
+        margin-top: 50px;
+        display: flex;
+        margin-bottom: 200px;
+    }
+    
+    .column-left {
+        width: 30%;
+        float: left;
+        margin: 0px 0 0 25px;
+        height: 1000px;
+    }
+    
+    .column-right {
+        width: 60%;
+        float: right;
+        height: 500px;
+    }
+    
+    .column-left-uprow {
+        height: 30%;
+        height: 200px;
+        display: flex;
+    }
+    
+    .box1 {
+        width: 200px;
+        height: 90px;
+        border-radius: 12px;
+        border-color: #aaa;
+    }
+    
+    .box1-row {
+        height: 40px;
+        width: 120%;
+        text-align: left;
+        background: #ccc;
+        border-radius: 12px;
+        margin: 10px 0 0 0;
+        padding: 10px 0 0 20px;
+        cursor: pointer;
+    }
+    
+    .box1-row:hover {
+        color: #000000;
+        background-color: #D5E1C9;
+    }
+    
+    .vertical {
+        margin: 40px 0 20px 0;
+        border-left: 3px solid grey;
+        height: 800px;
+        position: absolute;
+        left: 25%;
+    }
+    /*
+.box2 {
+    width: 95px;
+    height: 75px;
+    border-radius: 12px;
+    border-color: #aaa;
+    background: #ccc;
+    margin: 0 20px 0 50px;
+}
+
+.box-list {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.box-list2 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 0 0 0 50px;
+}
+
+.box3 {
+    padding: 10px 30px 0 15px;
+    margin: 20px 30px 0 10px;
+    text-align: center;
+    justify-content: center;
+    border-color: #8a948b;
+    width: 120px;
+    font-family: "Poppins", sans-serif;
+}
+
+#text {
+    text-decoration: none;
+    color: #262626;
+    /*align:left;*/
+    /*
+}
+.box3:hover {
+    background-color: #D5E1C9;
+}
+.box3:focus {
+    background-color: #D5E1C9;
+}
+.ex1 {
+    background-color: #ffffff;
+    width: 650px;
+    height: 400px;
+    overflow: scroll;
+    margin: 10px 0 0 60px;
+    padding: 2px 0 10px 0px;
+}
+.box4 {
+    height: 300px;
+    width: 200px;
+    background-color: grey;
+    text-align: center;
+    padding: 10px 50px 0 0;
+    border-radius: 12px;
+    margin: 20px 30px 0 40px;
+}
+.row {
+    display: flex;
+    margin: 20px 50px 10px 20px;
+    padding: 20px 20px 0 10px;
+}
+.frame {
+    justify-content: center;
+    padding: 20px 20px 0 50px;
+    margin: 0 0 10px 20px;
+}
+*/
+    
+    ul li {
+        list-style: none;
+    }
+    
+    ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #262626;
+    }
+    
+    ul li #active {
+        background: #D5E1C9;
+    }
+    /*right column */
+    
+    .col2 {
+        position: absolute;
+        top: 50px;
+        left: 500px;
+        margin: 0px;
+        padding: 100px 0 0 0;
+    }
+    /*vertical line*/
+    
+    .vl {
+        border-left: 3px solid #E5E5E5;
+        height: 750px;
+        position: absolute;
+        left: 25%;
+        margin-left: -3px;
+        top: 20%;
+    }
+    
+    table,
+    th,
+    td {
+        padding: 5px;
+        width: 400px;
+        border: 2px solid #D5E1C9;
+    }
+    /*table class*/
+    
+    .table1 {
+        background-color: #D5E1C9;
+        border-radius: 10px;
+        border: 2px solid #D5E1C9;
+        width: 700px;
+    }
+    
+    .Addbutton {
+        cursor: pointer;
+        border-radius: 10px;
+        height: 60px;
+        width: 200px;
+        position: absolute;
+        top: 10px;
+        left: 600px;
+        background-color: #306C00;
+        color: white;
+        text-align: center;
+        padding: 40px 20px 0 0;
+    }
+    
+    .topic {
+        position: absolute;
+        top: 10px;
+        margin: 0 0px 0px 0;
+        width: 200px;
+    }
+    
+    .dltButton {
+        text-align: right;
+        background-color: transparent;
+        border: 1px solid #ffffff;
+        cursor: pointer;
+    }

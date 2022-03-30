@@ -1,0 +1,54 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url("../img/bg3.jpg");
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100%;
+    background-size: 1520px 1000px;
+}
+
+.topic {
+    color: #306C00;
+    padding: 25px;
+    Width: 1600px;
+    Height: 100px;
+    text-align: center;
+    font-size: 48px;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 16px 12px;
+    margin: 15px 0;
+    font-size: 16px;
+    display: inline-block;
+    border: 2px solid #E5E5E5;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.container1 {
+    height: 600px;
+    width: 600px;
+    margin: 20px 0 120px 170px;
+    padding: 0 20px 20px;
+    border-radius: 10px;
+    /*box-shadow: 10px 20px 50p;*/
+    text-align: center;
+}
+
+
+/*save button*/
+
+.button1 {
+    margin: 15px 0px;
+    background-color: #306C00;
+    display: inline-block;
+    color: #f2f2f2;
+    padding: 15px 10px;
+    border: none;
+    cursor: pointer;
+    width: 35%;
+    font-size: 18px;
+}

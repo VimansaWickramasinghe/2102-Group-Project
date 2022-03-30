@@ -1,0 +1,104 @@
+    * {
+        font-family: "Poppins", sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    body {
+        margin: 0px;
+    }
+
+    .header-menu {
+        height: 40%;
+    }
+
+    .top {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 30%;
+        /*padding: 20px 0 20px 0;*/
+    }
+
+    .hleft {
+        margin: 30px 20px 20px 500px;
+        /* margin: auto;*/
+        display: flex;
+        /* padding: auto;
+    justify-self: right;*/
+    }
+
+    .hright {
+        justify-self: right;
+        /*margin: auto;*/
+        margin: 30px 20px 20px 30px;
+    }
+
+    .driver-hright {
+        position: absolute;
+        top: 20px;
+        right: 160px;
+    }
+
+    .header-menu-text {
+        font-size: 1em;
+        font-family: "Poppins", sans-serif;
+        padding: 0 10px 0 10px;
+    }
+
+    .icon {
+        height: 30px;
+        width: 30px;
+        margin: 0 0 0 25px;
+        z-index: 1;
+        display: flex;
+        float: right;
+    }
+
+    .hsocial-item {
+        margin: 0 0 0 30px;
+        float: left;
+        display: block;
+        padding: 0 0 0 0;
+    }
+
+    .box2header {
+        margin: 10px 10px 10px 30px;
+        justify-self: left;
+        padding: 0 0 0 0;
+    }
+
+    .button-hright {
+        justify-self: right;
+        margin: 30px 40px 20px 30px;
+    }
+
+    .logoutbutton-hright {
+        justify-self: right;
+        margin: 30px 40px 20px 30px;
+    }
+
+    .login {
+        margin-left: 20px;
+        padding: 9px 25px;
+        background-color: #588040;
+        color: #ffffff;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        text-decoration: none;
+    }
+
+    .login:hover {
+        background-color: #747a71;
+    }
+
+    #cart_count {
+        border-radius: 30%;
+        padding: 8px;
+        background-color: #e4e4e4;
+        height: 30px;
+        margin-left: 30px;
+    }

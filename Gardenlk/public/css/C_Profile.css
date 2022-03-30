@@ -1,0 +1,158 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.uprow {
+    display: flex;
+    margin: 0 10px 0 0;
+}
+
+.btn {
+    margin: 60px 0 0 0;
+}
+
+.btn-row {
+    height: 40px;
+    width: 300px;
+    text-align: justify;
+    border-radius: 8px;
+    border: 2px solid #E5E5E5;
+    margin: 8px 0 0 0;
+    padding: 10px 0 0 20px;
+    cursor: pointer;
+}
+
+.btn-row:hover {
+    background-color: #D5E1C9;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+}
+
+
+/* Main column */
+
+.col1 {
+    flex: 25%;
+    padding: 30px;
+    top: 20%;
+    position: absolute;
+    height: 500px;
+}
+
+
+/* Sidebar/right column */
+
+.col2 {
+    flex: 25%;
+    padding: 80px;
+    margin: 0px;
+    font-family: roboto;
+}
+
+
+/*vertical line*/
+
+.vl {
+    border-left: 3px solid #E5E5E5;
+    height: 750px;
+    position: absolute;
+    left: 25%;
+    margin-left: -3px;
+    top: 20%;
+}
+
+
+/*text boxes */
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    width: 80%;
+    padding: 16px 12px;
+    margin: 15px 0;
+    font-size: 16px;
+    display: inline-block;
+    border: 2px solid #E5E5E5;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.profilebox {
+    position: absolute;
+    left: 400px;
+    top: 250px;
+}
+
+.container1 {
+    height: 600px;
+    width: 600px;
+    margin: 20px 0 120px 170px;
+    padding: 0 20px 20px;
+    border-radius: 10px;
+    /*box-shadow: 10px 20px 50p;*/
+    text-align: center;
+}
+
+
+/*save button*/
+
+.button1 {
+    margin-top: 110px;
+    margin-bottom: 0px;
+    background-color: #306C00;
+    color: #f2f2f2;
+    padding: 15px 10px;
+    border: none;
+    cursor: pointer;
+    width: 35%;
+    font-size: 18px;
+}
+
+
+/*cancel button*/
+
+.button2 {
+    /* margin-top: 50px;
+            margin-bottom: 0px;
+            margin-left:40px;
+            margin-right:220px; */
+    margin-left: 40px;
+    background-color: #154614;
+    color: #f2f2f2;
+    padding: 15px 10px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    font-size: 18px;
+}
+
+.plantImage {
+    position: absolute;
+    left: 1150px;
+    top: 40px;
+}
+
+.pwdBtn {
+    width: 200px;
+    padding: 16px 12px;
+    margin: 150px 0 0 61px;
+    font-size: 16px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: left;
+    position: absolute;
+    left: 188px;
+    top: 260px;
+    text-decoration: none;
+    color: #958F8F;
+}

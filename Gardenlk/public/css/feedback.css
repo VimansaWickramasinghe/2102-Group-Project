@@ -1,0 +1,205 @@
+body {
+    font-family: "Poppins", sans-serif;
+    /* font-family: ; */
+}
+
+section {
+    display: flex;
+    background-color: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+section>div {
+    border-radius: 10px;
+    background-color: #D5E1C9;
+    margin: 60px;
+    padding: 20px;
+    height: 500px;
+    width: 300px;
+    font-size: 30px;
+}
+
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* .GB {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+} */
+
+.rating {
+    display: inline-block;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.like,
+.dislike {
+    size: 3x;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.dislike:hover,
+.like:hover {
+    color: #2EBDD1;
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.active {
+    color: #2EBDD1;
+}
+
+
+/* 2 feedback box */
+
+.rate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    padding: 0 10px 45px;
+}
+
+.rate:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate:not(:checked)>label {
+    float: left;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 40px;
+    color: #585656;
+}
+
+.rate:not(:checked)>label:before {
+    content: ' ★ ';
+}
+
+.rate>input:checked~label {
+    color: #ffc700;
+}
+
+.rate:not(:checked)>label:hover,
+.rate:not(:checked)>label:hover~label {
+    color: #deb217;
+}
+
+.rate>input:checked+label:hover,
+.rate>input:checked+label:hover~label,
+.rate>input:checked~label:hover,
+.rate>input:checked~label:hover~label,
+.rate>label:hover~input:checked~label {
+    color: #c59b08;
+}
+
+
+/*  3 feedback box  */
+
+.rate1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    padding: 0 10px 30px;
+}
+
+.rate1:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate1:not(:checked)>label {
+    float: left;
+    width: 0.85em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 43px;
+    color: #585656;
+}
+
+.rate1:not(:checked)>label:before {
+    content: '  ♥  ';
+}
+
+.rate1>input:checked~label {
+    color: #a31616;
+}
+
+.rate1:not(:checked)>label:hover,
+.rate1:not(:checked)>label:hover~label {
+    color: #b81010;
+}
+
+.rate1>input:checked+label:hover,
+.rate1>input:checked+label:hover~label,
+.rate1>input:checked~label:hover,
+.rate1>input:checked~label:hover~label,
+.rate1>label:hover~input:checked~label {
+    color: #a01414;
+}
+
+.block {
+    display: block;
+    width: 15%;
+    border: none;
+    background-color: #306C00;
+    color: white;
+    padding: 14px 28px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.block:hover {
+    background-color: black;
+    color: white;
+}
+
+.heading {
+    width: 500px;
+    height: 100px;
+    color: #000000;
+    position: relative;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-name: example;
+}
+
+@keyframes example {
+    0% {
+        color: #000000;
+        left: 0px;
+        top: 0px;
+    }
+    45% {
+        color: #439103;
+        left: 200px;
+        top: 0px;
+    }
+}

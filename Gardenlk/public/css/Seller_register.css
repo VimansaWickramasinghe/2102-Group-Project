@@ -1,0 +1,131 @@
+    @font-face {
+        font-family: "Poppins";
+        src: url("fonts/Poppins-Bold.ttf");
+        font-style: normal;
+        font-weight: 700;
+    }
+    
+    .input {
+        width: 50%;
+        padding: 10px;
+        /*background: #ddccff; */
+        border: none;
+        outline: none;
+        display: block;
+    }
+    
+    .input-field {
+        height: 50px;
+        width: 50%;
+        margin: 10px;
+        border-radius: 10px;
+        background: #99dd99;
+        -webkit-box-shadow: 2px 2px 3px rgba(144, 235, 185, 0.1);
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+    }
+    
+    input+span::before {
+        /*position: absolute;*/
+        right: -20px;
+        top: 5px;
+    }
+    /* input:valid{
+    border: 2px solid green;
+  } */
+    
+    input[type=text],
+    input[type=password],
+    input[type=email] {
+        width: 80%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+    }
+    
+    input[type=file] {
+        width: 40%;
+        padding: 15px;
+        margin: 5px 0 22px 140px;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+    }
+    
+    input:invalid+span::before {
+        /*content: '✖';*/
+        color: red;
+    }
+    
+    input:valid+span::before {
+        /*content: '✓';*/
+        color: green;
+    }
+    
+    .cont {
+        padding: 16px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .btn {
+        width: 200px;
+        background-color: #75746f;
+        border: none;
+        outline: none;
+        height: 49px;
+        border-radius: 0px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin: 10px 0;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .btn:hover {
+        background-color: #006400;
+    }
+    
+    .title {
+        font-size: 2.2rem;
+        color: #444;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    
+    .reg-image {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+    }
+    
+    .form {
+        justify-content: center;
+        margin: 10px 0 0 200px;
+        padding: 5px 0 0 175px;
+        width: 50%;
+    }
+    
+    .invalidFeedback {
+        color: #ff0000;
+        display: block;
+    }
+    
+    .options a {
+        color: #006400;
+    }
+    
+    .options a:hover {
+        color: #000000;
+        transition: 0.20s ease-in;
+        text-decoration: none;
+    }
+    
+    body {
+        background-image: url("../img/cover.png");
+        background-repeat: no-repeat;
+        background-size: 1600px 1500px;
+    }

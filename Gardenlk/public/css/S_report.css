@@ -1,0 +1,173 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.column-left {
+    width: 30%;
+    height: 650px;
+    float: left;
+    margin: 0px 0 0 25px;
+}
+
+.column-right {
+    width: 60%;
+    float: right;
+    height: 1100px;
+}
+
+.column-left-uprow {
+    height: 30%;
+    display: flex;
+}
+
+.uprow {
+    display: flex;
+    margin: 0 0 0 0;
+}
+
+.box1 {
+    width: 200px;
+    height: 90px;
+    border-radius: 12px;
+    border-color: #aaa;
+}
+
+.box1-row {
+    height: 40px;
+    width: 120%;
+    text-align: left;
+    background: #ccc;
+    border-radius: 12px;
+    margin: 10px 0 0 0;
+    padding: 10px 0 0 20px;
+    cursor: pointer;
+}
+
+.box1-row:hover {
+    color: #000000;
+    background-color: #D5E1C9;
+}
+
+.box {
+    width: 85%;
+    height: 80px;
+    background: #ccc;
+    margin: 20px 0 0 50px;
+    display: flex;
+    border-radius: 12px;
+}
+
+div#ex1 {
+    background-color: #ffffff;
+    width: 800px;
+    height: 400px;
+    overflow: scroll;
+    margin: 30px 0 10px 0;
+    padding: 10px 0 20px 0;
+}
+
+.box-column {
+    margin: 5px 0 -50px 0;
+    border-spacing: 0 15px 0 10px;
+    border-collapse: separate;
+}
+
+.box-button {
+    margin: 10px 0 20px 0;
+    height: 5px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.vertical {
+    margin: 40px 0 20px 0;
+    border-left: 3px solid grey;
+    height: 750px;
+    position: absolute;
+    left: 25%;
+}
+
+.repo {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin: 10px 20px 10px 0;
+}
+
+.search {
+    padding: 10px 30px 10px 0;
+    margin: 0px 0 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.datepicker {
+    border: none;
+    width: 180px;
+    height: 40px;
+    background-color: #DAF4CB;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 0 0 40px
+}
+
+.datepicker:hover {
+    background-color: #DAF4CB;
+    cursor: pointer;
+}
+
+.topic {
+    font-size: 30px;
+    padding: 50px;
+}
+
+button {
+    font-size: 15px;
+    color: #ffffff;
+    width: 120px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background-color: #306C00;
+}
+
+button:hover {
+    background-color: #ccc;
+    color: #000000;
+}
+
+
+/* table {
+    border-color: #ccc;
+} */
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #262626;
+}
+
+ul li #active {
+    background: #D5E1C9;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

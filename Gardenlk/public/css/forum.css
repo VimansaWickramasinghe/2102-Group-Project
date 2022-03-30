@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 20px;
+}
+
+input {
+    padding: 6px;
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-right: 0;
+    font-size: 17px;
+    border: 1px solid black;
+    width: 1405px;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: none;
+}
+
+table.table1 {
+    table-layout: auto;
+    border: 1px solid rgb(114, 113, 113);
+    width: 97%;
+    margin: 20px 20px 10px 20px;
+}
+
+.search-container button {
+    padding: 6px 6px;
+    margin-top: 8px;
+    margin-right: 0px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+}
+
+.profile_forum {
+    float: left;
+    margin: 20px 70px 20px 20px;
+}
+
+.icon_forum {
+    width: 30px;
+    height: 30px;
+    float: right;
+    padding: 0;
+    margin: 0px 20px;
+}
+
+button.block {
+    display: block;
+    width: 15%;
+    border: none;
+    background-color: #306C00;
+    color: white;
+    padding: 14px 28px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    float: right;
+    position: absolute;
+    top: 110px;
+    right: 25px;
+    font-size: 18px;
+}
+
+.voteIcon_forum {
+    height: 30px;
+    width: 30px;
+}

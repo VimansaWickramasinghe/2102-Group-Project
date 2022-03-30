@@ -1,0 +1,139 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+    /*columns: #000000;*/
+    ;
+}
+
+label {
+    font-size: 20px;
+    color: #000;
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    width: 100%;
+    padding: 16px 12px;
+    margin: 15px 0;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#users {
+    width: 100%;
+    padding: 16px 12px;
+    margin: 15px 0;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons */
+
+button {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    background-color: #306C00;
+    color: #f2f2f2;
+    padding: 15px 10px;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    font-size: 18px;
+}
+
+
+/* Add padding to containers */
+
+.container2 {
+    max-width: 500px;
+    height: 600px;
+    margin: 90px auto 120px;
+    background-color: #D5E1C9;
+    padding: 0 20px 20px;
+    border-radius: 12px;
+    /* box-shadow: 10px 20px 50px;*/
+    text-align: center;
+}
+
+.container1 {
+    max-width: 500px;
+    height: 600px;
+    margin: 90px auto 120px;
+    background-color: #ffffff;
+    padding: 0 20px 20px;
+    border-radius: 10px;
+    /*box-shadow: 10px 20px 50p;*/
+    text-align: center;
+}
+
+.container3 {
+    max-width: 500px;
+    height: 600px;
+    margin: 90px 600px 0px 0px;
+    background-color: #D5E1C9;
+    padding: 0 20px 20px;
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+}
+
+.p2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 15px;
+}
+
+.loginImage {
+    position: absolute;
+    width: 578px;
+    height: 850px;
+    left: -234px;
+    top: 66px;
+    margin: 0 0 0 0;
+    padding-left: 0px;
+}
+
+.RegImage {
+    position: absolute;
+    width: 595px;
+    height: 630px;
+    left: 970px;
+    top: 300px;
+    margin: 0 0 0 0;
+    padding-left: 0px;
+}
+
+.usertype {
+    background-color: #D5E1C9;
+    border-radius: 40px;
+    color: black;
+}
+
+.forgotpwd {
+    text-decoration: none;
+    float: right;
+    color: grey;
+}
+
+.loginverticalRuler {
+    margin: 40px 0 20px 0;
+    border-left: 3px solid rgb(209, 208, 208);
+    height: 600px;
+    position: absolute;
+    left: 54%;
+}
